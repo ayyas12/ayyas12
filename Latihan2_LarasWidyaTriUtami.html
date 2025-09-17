@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tugas HTML Murni</title>
+</head>
+
+<body>
+
+    <h1>Data Mahasiswa</h1>
+    <p><b>NIM :</b> 211011450281</p>
+    <p><b>Nama :</b> LARAS WIDYA TRI UTAMI</p>
+    <p><b>Kelas :</b> 05TPLP014</p>
+
+    <!-- ===== Bagian Tabel ===== -->
+    <table border="1" cellpadding="8" cellspacing="0">
+        <tr bgcolor="#d3d3d3">
+            <th>NIM</th>
+            <th>Nama Mahasiswa</th>
+            <th>Kelas</th>
+        </tr>
+        <tr bgcolor="#f0f8ff">
+            <td>211011450281</td>
+            <td>LARAS WIDYA TRI UTAMI</td>
+            <td>05TPLP014</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <!-- ===== Bagian Form ===== -->
+    <h2>Formulir Pendaftaran</h2>
+    <form action="#" method="post">
+        <p>
+            <label>NIM :
+                <input type=S"text" name="nim">
+            </label>
+        </p>
+        <p>
+            <label>Nama Lengkap :
+                <input type="text" name="nama">
+            </label>
+        </p>
+
+        <p>
+            <label>Pilihan Kelas :
+                <select name="kelas">
+                    <option value="05TPLP014">05TPLP014</option>
+                    <option value="05TPLP015">05TPLP015</option>
+                </select>
+            </label>
+        </p>
+
+        <p>
+            <label>
+                <input type="checkbox" name="setuju">
+                Saya menyetujui syarat dan ketentuan
+            </label>
+        </p>
+
+        <p>
+            <input type="submit" value="Daftar">
+            <input type="reset" value="Batal">
+        </p>
+    </form>
+
+</body>
+
+</html>
